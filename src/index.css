@@ -1,0 +1,59 @@
+@import "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap";
+
+:root {
+  /* Colors */
+  --color-cream-paper: #fff9f0;
+  --color-midnight-ink: #000609;
+  --color-signal-blue: #0a65db;
+  --color-ember-red: #ee4623;
+  --color-saffron-yellow: #ffd23f;
+  --color-blush-pink: #f4c6c6;
+
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--color-cream-paper);
+  color: var(--color-midnight-ink);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff9f0;
+  color: #000609;
+  min-height: 100vh;
+}
+
+/* Typography Headings */
+h1, h2, h3, h4, .font-display {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+}
+
+/* Scrollbar styling - Bauhaus style crisp flat scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff9f0;
+  border-left: 1px solid #000609;
+}
+::-webkit-scrollbar-thumb {
+  background: #000609;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0a65db;
+}
+
+/* Animation utilities */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+/* Custom hairline borders */
+.border-ink {
+  border-color: #000609;
+}
