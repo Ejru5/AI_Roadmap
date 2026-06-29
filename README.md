@@ -79,6 +79,13 @@ This repository is optimized for one-click deployment on Vercel:
 
 ---
 
+## 👨‍💻 Maker
+
+Crafted with ❤️ by **Dhruvkumar**  
+Connect on LinkedIn: [www.linkedin.com/in/dhruvsol](https://www.linkedin.com/in/dhruvsol)
+
+---
+
 ## 📝 License
 
 Distributed under the MIT License. Feel free to fork, customize, and share!

@@ -285,7 +285,13 @@ export function App() {
       {/* Footer */}
       <footer className="border-t-2 border-[#000609] bg-[#fffefb] py-8 text-center text-xs font-bold text-[#000609]">
         <div className="max-w-[1200px] mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="uppercase tracking-wider">AI Learning Roadmap</p>
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+            <p className="uppercase tracking-wider">AI Learning Roadmap</p>
+            <span className="hidden sm:inline text-[#000609]/40">•</span>
+            <p className="text-[#000609]">
+              Built with ❤️ by <a href="https://www.linkedin.com/in/dhruvsol" target="_blank" rel="noopener noreferrer" className="text-[#0a65db] hover:underline font-black">Dhruvkumar</a>
+            </p>
+          </div>
           <div className="flex items-center space-x-6">
             <span className="flex items-center space-x-1.5"><Flame className="w-4 h-4 text-[#ee4623] fill-[#ee4623]" /><span className="uppercase">Streak Active</span></span>
             <span className="flex items-center space-x-1.5"><CheckCircle className="w-4 h-4 text-[#0a65db]" /><span className="uppercase">Saved Locally</span></span>
