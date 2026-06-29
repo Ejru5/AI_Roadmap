@@ -81,8 +81,7 @@ This repository is optimized for one-click deployment on Vercel:
 
 ## 👨‍💻 Maker
 
-Crafted with ❤️ by **Dhruvkumar**  
-Connect on LinkedIn: [www.linkedin.com/in/dhruvsol](https://www.linkedin.com/in/dhruvsol)
+[Built by Dhruv Solanki](https://www.linkedin.com/in/dhruvsol)
 
 ---
 

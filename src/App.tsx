@@ -289,7 +289,7 @@ export function App() {
             <p className="uppercase tracking-wider">AI Learning Roadmap</p>
             <span className="hidden sm:inline text-[#000609]/40">•</span>
             <p className="text-[#000609]">
-              Built with ❤️ by <a href="https://www.linkedin.com/in/dhruvsol" target="_blank" rel="noopener noreferrer" className="text-[#0a65db] hover:underline font-black">Dhruvkumar</a>
+              <a href="https://www.linkedin.com/in/dhruvsol" target="_blank" rel="noopener noreferrer" className="text-[#0a65db] hover:underline font-black">Built by Dhruv Solanki</a>
             </p>
           </div>
           <div className="flex items-center space-x-6">
