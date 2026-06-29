@@ -171,9 +171,9 @@ export function App() {
       />
 
       {/* Main Content */}
-      <main className="flex-1 max-w-[1200px] w-full mx-auto px-4 sm:px-6 py-10 space-y-10">
+      <main className="flex-1 max-w-[1200px] w-full mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-6 sm:space-y-10">
         
-        {/* Hero Banner */}
+        {/* Hero Banner (Artwork hidden on mobile for clean vertical space) */}
         <div className="border-2 border-[#000609] bg-[#fffefb] p-6 sm:p-10 shadow-[6px_6px_0px_#000609] grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
           
           {/* Left Column Content */}
@@ -204,8 +204,8 @@ export function App() {
             </div>
           </div>
 
-          {/* Right Column Geometric Artwork Box */}
-          <div className="md:col-span-4 flex justify-center">
+          {/* Right Column Geometric Artwork Box (HIDDEN on mobile, visible on desktop md:flex) */}
+          <div className="hidden md:flex md:col-span-4 justify-center">
             <div className="w-48 h-48 sm:w-56 sm:h-56 border-2 border-[#000609] bg-[#fff9f0] p-3 grid grid-cols-2 grid-rows-2 gap-2 relative shadow-[4px_4px_0px_#000609]">
               <div className="bg-[#0a65db] border border-[#000609] flex items-center justify-center">
                 <div className="w-8 h-8 bg-[#fff9f0] rounded-full border border-[#000609]" />
